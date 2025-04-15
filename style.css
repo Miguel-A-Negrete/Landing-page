@@ -3,7 +3,7 @@ html, body{
 }
 
 body{
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto";
     margin: 0;
     padding: 0;
     display: flex;
@@ -37,12 +37,12 @@ a{
     color: #E5E7EB;
 }
 
-.container-header, .container-hero, .information{
+.container-header, .container-hero, .information, .quote{
     display: flex;
     justify-content: center;
 }
 
-.header, .hero, .container-information{
+.header, .hero, .container-information, .container-quote{
     width:1020px;
 }
 
@@ -100,15 +100,12 @@ button{
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+    text-align: center;
 }
 
 .information{
     background-color: white;
     padding: 50px 0px;
-}
-
-.title{
-    text-align: center;
 }
 
 .cards{
@@ -137,4 +134,30 @@ border-radius: 15px;
 
 .quote{
     background-color: #E5E7EB;
+    padding: 150px 0px;
+}
+.quote-text{
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    
+}
+
+.card-quote{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-author{
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+}
+
+.author{
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: 900;
 }
