@@ -37,26 +37,29 @@ a{
     color: #E5E7EB;
 }
 
-.container-header, .container-hero{
+.container-header, .container-hero, .information{
     display: flex;
     justify-content: center;
+}
+
+.header, .hero, .container-information{
+    width:1020px;
 }
 
 .header{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    width:1020px;
     padding: 10px 20px;
     margin-bottom: 90px;
 }
 
 .hero{
-    width:1020px;
     padding: 10px 20px;
     display: flex;
     align-items: center;
     gap: 50px;
+    margin-bottom: 100px;
 }
 
 .hero-card{
@@ -93,6 +96,45 @@ button{
     background-color: #6d747d;
 }
 
+.title{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
 
+.information{
+    background-color: white;
+    padding: 50px 0px;
+}
 
+.title{
+    text-align: center;
+}
 
+.cards{
+    display: flex;
+    margin: 50px 0px;
+    justify-content: center;
+    gap: 80px;
+}
+
+.empty{
+width: 180px;
+height: 180px;
+border: 5px solid #3b82f7;
+border-radius: 15px;
+}
+
+.card-text{
+    color: #78808a;
+    font-size: 18px;
+    margin-top: 12px;
+    text-align: center;
+}
+.card{
+    width: 180px;
+}
+
+.quote{
+    background-color: #E5E7EB;
+}
