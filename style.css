@@ -30,6 +30,7 @@ a{
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+    margin-bottom: 16px;
 }
 .text, a, .placeholder{
     font-size: 18px;
@@ -73,9 +74,15 @@ button{
     display: inline-block;
     font-size: 18px;
     font-weight: 600;
-    
+    margin-top: 16px;
+    transition-duration: 0.4s;
     
 }
+
+  button:hover {
+    background-color: white; 
+    color: #3882F6;
+  }
 
 .placeholder{
     display: flex;
