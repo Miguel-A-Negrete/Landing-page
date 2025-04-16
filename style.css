@@ -10,7 +10,7 @@ body{
     flex-direction: column;
     background-color: #1F2937;
 }
-.header-text{
+.header-text, .sign-up_text{
     font-size: 24px;
     color:#F9FAF8;
     font-weight: 900;
@@ -32,17 +32,17 @@ a{
     font-weight: 900;
     margin-bottom: 16px;
 }
-.text, a, .placeholder{
+.text, a, .placeholder, .sign-up_subtext, .footer-text{
     font-size: 18px;
     color: #E5E7EB;
 }
 
-.container-header, .container-hero, .information, .quote{
+.container-header, .container-hero, .information, .quote, .sign-up, .footer{
     display: flex;
     justify-content: center;
 }
 
-.header, .hero, .container-information, .container-quote{
+.header, .hero, .container-information, .container-quote, .container-sign-up{
     width:1020px;
 }
 
@@ -140,7 +140,7 @@ border-radius: 15px;
     color: #1F2937;
     font-size: 36px;
     font-style: italic;
-    font-weight: 100;
+    font-weight: 300;
     
 }
 
@@ -160,4 +160,27 @@ border-radius: 15px;
     font-size: 24px;
     color: #1F2937;
     font-weight: 900;
+}
+
+.sign-up{
+    background-color: white;
+}
+
+.container-sign-up{
+    background-color: #3882F6;
+   margin: 100px 0px;
+   display: flex;
+   align-items: center;
+   gap: 100px;
+   padding: 50px 10px;
+   justify-content: center;
+   border-radius: 12px;
+}
+
+.b-signup{
+    border: 2px solid white;
+}
+
+.footer-card{
+    padding: 40px 0px;
 }
